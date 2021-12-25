@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTP-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Firulas.css">
+</head>
+<body>
+    <div class="calculator"> 
+        <div id="display" class="display">
+
+        </div>
+        <section>
+            <input type="button" value="CE" onclick="limpar('')">
+            <input type="button" value="%" onclick="começar('%')">
+            <input type="button" value="**"onclick="começar('**')">
+            <input type="button" value="/"onclick="começar('/')">
+            <input type="button" value="7"onclick="começar('7')">
+            <input type="button" value="8"onclick="começar('8')">
+            <input type="button" value="9"onclick="começar('9')">
+            <input type="button" value="*"onclick="começar('*')">
+            <input type="button" value="4"onclick="começar('4')">
+            <input type="button" value="5"onclick="começar('5')">
+            <input type="button" value="6"onclick="começar('6')">
+            <input type="button" value="-"onclick="começar('-')">
+            <input type="button" value="1"onclick="começar('1')">
+            <input type="button" value="2"onclick="começar('2')">
+            <input type="button" value="3"onclick="começar('3')">
+            <input type="button" value="+"onclick="começar('+')">
+            <input type="button" value="0" onclick="começar('0')">
+            <input type="button" value="00"onclick="começar('00')">
+            <input type="button" value=","onclick="começar(',')">
+            <input type="button" value="="onclick="igual('=')">
+        </section>
+        </div>
+    </div><br>
+    <div id="inform">
+        <p><strong>CE</strong>: Usado para limpar</p>
+        <p><strong>%</strong>: Usado para descobrir a sobra de uma divisão</p>
+        <p><strong>**</strong>: Usado para descobrir a potência de um número</p>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
+
+
